@@ -15,7 +15,11 @@
     div.id = "myId"
     div.setAttribute("title" , "RBslayer")
     div.style.backgroundColor = "green"
-    div.style.padding=""
-    div.innerText =
+    div.style.padding="12px"
+    // div.innerText = "DOM learning RBslayer"
+    const addText = document.createTextNode("DOM learning RBslayer")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
 </script>
 </html>
