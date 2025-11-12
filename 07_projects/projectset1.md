@@ -70,8 +70,9 @@ setInterval(function(){
   clock.innerHTML = date.toLocaleTimeString();
 } , 1000);
 ```
+
 ## project 4
-```javascrpt
+```javascript
 let randNum = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector('#subt');
