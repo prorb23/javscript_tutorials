@@ -92,7 +92,7 @@ fetch('https://api.github.com/users/prorb23')
     return response.json()
 })
 .then((response) => {
-    console.log(data);
+    console.log(response);
 })
 .catch((error) => console.log(error))
 
